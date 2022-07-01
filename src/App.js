@@ -1,8 +1,13 @@
 import './App.css';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <h1 className='flex font-barlow text-2xl'>Hello World</h1>
+    <div className='flex'>
+      <Sidebar />
+      <Main />
+    </div>
   );
 }
 

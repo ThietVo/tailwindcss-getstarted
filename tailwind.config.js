@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                barlow: ['"Barlow Condensed"', 'sans-serif']
+                poppins: ['"Poppins"', 'sans-serif']
             }
         },
     },
